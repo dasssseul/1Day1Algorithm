@@ -1,8 +1,8 @@
-// 백준 10430번
+// 백준 10430번_나머지
 
 // 숫자 입력을 받기 위한 fs 모듈 사용_희승이한테 배움
 const fs = require('fs');
-const filePath = process.platform === 'linux' ? '/dev/stdin' : 'test.txt';
+const filePath = process.platform === 'linux' ? '/dev/stdin' : '1주차/test.txt';
 let input = fs.readFileSync(filePath).toString().split(' ');
 let numbers = input.map((num) => parseInt(num));
 
