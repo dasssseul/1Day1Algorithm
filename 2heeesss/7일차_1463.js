@@ -4,7 +4,7 @@ const input = require('fs').readFileSync(filePath).toString().trim().split('\n')
 const solution = function (x) {
     let res = new Array(x);
     res[1] = 0;
-    res[0] = 987654321; // 최솟값 저장할때 걸리도록 큰값 저장
+    res[0] = 987654321; // 최솟값 저장할때 걸리도록 큰값  저장 
     // 1부터 n까지 순회(빈 배열 만들어서)
     for (let i = 2; i <= x; i++) {
         let divideByTwo = 0;
