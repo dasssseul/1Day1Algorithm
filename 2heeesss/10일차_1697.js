@@ -11,7 +11,7 @@ const solution = function (n, k) {
     }
 
     function bfs(v, visted) {
-        const queue = [v]; // bfs탐색을 위한 배열
+        const queue = [v]; // bfs탐색을 위한 배열 
         const time = [0]; // bfs의 깊이(시간)을 위한 배열
         visted[v] = true;
 
